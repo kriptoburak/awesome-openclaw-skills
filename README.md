@@ -1066,3 +1066,7 @@ Contributions are welcome! If you know of a great OpenClaw skill that should be 
 ## License
 
 CC0 1.0 Universal — see [LICENSE](LICENSE) for details.
+
+## Credits
+
+Curated by [Sundial](https://sundialhub.com/).
