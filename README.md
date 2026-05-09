@@ -628,6 +628,7 @@ See below for skills to try! 🦞
 | [**LinkedIn Inbox Manager**](./skills/linkedin-inbox) | `linkedin-inbox` | LinkedIn inbox management with scheduled scanning, auto-draft responses following user's communication style, and approval workflows. Use when monitoring LinkedIn messages, drafting replies, managi... | [77](https://www.clawhub.com/dylanbaker24/linkedin-inbox) |
 | [**X Algorithm Mastery**](./skills/x-mastery) | `x-mastery` | Complete X (Twitter) algorithm mastery - engagement weights, viral formulas, shadow ban avoidance, thread optimization, and growth strategies. Based on X's open-source code analysis and real creato... | [61](https://www.clawhub.com/lxgicstudios/x-mastery) |
 | [**X Twitter Scraper**](./skills/x-twitter-scraper) | `x-twitter-scraper` | X API & Twitter scraper skill for AI coding agents. 40+ tools: tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, trending topics, write actions & Telegram integrations. REST API, MCP server & webhooks. Works with Claude Code, Cursor, Codex & 40+ agents. | [0](https://www.clawhub.com/Xquik-dev/x-twitter-scraper) |
+| [**TweetClaw**](./skills/tweetclaw) | `tweetclaw` | Safety-reviewed OpenClaw skill for TweetClaw, the Xquik plugin for search tweets, search tweet replies, post tweets, post tweet replies, follower export, monitors, media workflows, and giveaway draws. Includes setup guidance, approval boundaries, and MPP read-only limits. | [0](https://www.clawhub.com/xquik/tweetclaw) |
 
 ## Content & Writing
 
