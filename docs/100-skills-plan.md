@@ -1,12 +1,12 @@
 # 100 Skills 进度文档
 
-> 目标不是机械凑数，而是把仓库推进到“有 100 项中文导读、且来源透明”的可交付状态。
+> 目标不是机械凑数，而是把仓库推进到“有 100+ 项中文导读、且来源透明”的可交付状态。
 
 ## 当前状态
 
 - 主清单：`lists/awesome-skills.md`
-- 当前条目数：**100**
-- 已核对条目：**96**
+- 当前条目数：**101**
+- 已核对条目：**97**
 - 部分核对条目：**4**
 - 待二次核对条目：**0**
 
@@ -100,6 +100,12 @@
 - 比“全都待核对”更细一层：本地一手资料和官方公开技能页都可以作为保守的一手来源
 - 方便下一轮直接针对剩余 4 个 `部分核对` 条目补完整安装链路与上游仓库
 
+## 本轮补充
+
+- 新增 `tweetclaw`：来源为 `https://github.com/Xquik-dev/tweetclaw`、`https://www.npmjs.com/package/@xquik/tweetclaw` 与 `https://clawhub.ai/plugins/@xquik/tweetclaw`
+- 作为 `@xquik/tweetclaw` OpenClaw 插件收录，覆盖 X/Twitter tweet scraper、search tweets、search tweet replies、post tweets / replies、follower export、user lookup、media upload / download、direct messages、monitors、webhooks 与 giveaway draws
+- 风险标签为 `高注意`：需要 Xquik API key 或只读 MPP signing key，且写入、付费和 recurring action 需要先确认范围、账号、目标和内容
+
 ## 下一步建议
 
 ### 第一优先级
@@ -122,7 +128,7 @@
 
 ## 暂不并入本轮主清单的额外候选
 
-以下名字目前仍保留在观察池，暂未并入 100 项主清单：
+以下名字目前仍保留在观察池，暂未并入主清单：
 
 - `self-improving-agent`（当前主清单已使用规范名 `self-improvement`）
 - `gog`
@@ -140,6 +146,6 @@
 如果明天早上只看一次仓库，我希望用户至少能直接拿到这些结果：
 
 - 一个中文 README
-- 一份 100 项 skill 中文导读清单
+- 一份 101 项 skill 中文导读清单
 - 一套中文的贡献、收录、写作与 rules 文档
 - 一个诚实的进度面板，知道哪些已经核过、哪些只是 `部分核对`、哪些还要继续做

@@ -1,6 +1,6 @@
 # Awesome OpenClaw Skills 中文清单
 
-> 当前版本：**100 项 skill 中文导读**。
+> 当前版本：**101 项 skill 中文导读**。
 
 ## 状态说明
 
@@ -110,6 +110,7 @@
 - [已核对][中] `sonoscli`：通过 `sonos` CLI 控制 Sonos 音箱的发现、播放、分组与音量；可选接 Spotify 搜索。
 - [已核对][低] `spotify-player`：用 `spogo` 或 `spotify_player` 做终端内 Spotify 搜索与播放控制。
 - [已核对][中] `summarize`：通过 `summarize` CLI 总结 URL、PDF、图片、音频与 YouTube 内容；依赖外部模型 / 提取服务 key。
+- [已核对][高注意] `tweetclaw`：`@xquik/tweetclaw` 的 OpenClaw 插件，用于 search tweets、search tweet replies、post tweets / replies、follower export、user lookup、media upload / download、direct messages、monitors、webhooks 与 giveaway draws；需要 Xquik API key 或只读 MPP signing key，写入、付费与 recurring action 应先做明确确认。
 - [已核对][高注意] `tavily`：基于 Tavily Search API 做搜索与摘要；公开页已被 ClawHub 标成 suspicious，且 API key 元数据声明不完整。
 - [已核对][低] `video-frames`：用 `ffmpeg` 从视频里抽帧或截短片段，适合视觉回顾。
 - [已核对][低] `weather`：通过 `curl` 调 `wttr.in` / `Open-Meteo` 查询天气，无需 API key，但会把位置查询发到外网。
@@ -131,7 +132,7 @@
 
 ## 当前结论
 
-- 这 100 项已经从“路线图占位”推进到“本地资料 + 官方公开技能页混合核对”的中文导览阶段。
+- 这 101 项已经从“路线图占位”推进到“本地资料 + 官方公开技能页混合核对”的中文导览阶段。
 - 上轮已把原来的 43 个 `待核对` 条目全部吃掉：其中 **38** 个升级为 `已核对`，**5** 个升级为 `部分核对`。
-- 本轮先把 **4 个飞书条目**、再把 **`clawhub` / `notion` / `canvas` / `gh-issues` / `gemini`** 从 `部分核对` 升级为 `已核对`，当前来到 **96 个 `已核对` + 4 个 `部分核对` + 0 个 `待核对`**。
+- 本轮先把 **4 个飞书条目**、再把 **`clawhub` / `notion` / `canvas` / `gh-issues` / `gemini`** 从 `部分核对` 升级为 `已核对`，又补入已核对的 `tweetclaw`，当前来到 **97 个 `已核对` + 4 个 `部分核对` + 0 个 `待核对`**。
 - 下一步最值得做的是：继续为剩余 **4** 个 `部分核对` 条目补独立 `SKILL.md` / 上游仓库 / 安装链路，并给高风险条目单独拉出警示分组。

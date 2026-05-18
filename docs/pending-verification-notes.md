@@ -1,6 +1,6 @@
 # 条目核对记录：公开来源二次核对
 
-> 2026-03-23 这一轮在本机证据之外，补查了官方 ClawHub 公共技能页。只有当公开页能直接提供 skill 说明、依赖 / 凭据线索、安装方式或安全审计摘要时，才升级为 `已核对`；若只有公开占位页，则最多升级为 `部分核对`。随后又补查了本机 Feishu 官方插件 README、npm 包元数据与独立 `SKILL.md`，再把 4 个飞书条目从 `部分核对` 升级为 `已核对`。之后根据用户明确给出的风险口径，再把 `clawhub`、`notion`、`canvas`、`gh-issues`、`gemini` 从 `部分核对` 升级为 `已核对`。
+> 2026-03-23 这一轮在本机证据之外，补查了官方 ClawHub 公共技能页。只有当公开页能直接提供 skill 说明、依赖 / 凭据线索、安装方式或安全审计摘要时，才升级为 `已核对`；若只有公开占位页，则最多升级为 `部分核对`。随后又补查了本机 Feishu 官方插件 README、npm 包元数据与独立 `SKILL.md`，再把 4 个飞书条目从 `部分核对` 升级为 `已核对`。之后根据用户明确给出的风险口径，再把 `clawhub`、`notion`、`canvas`、`gh-issues`、`gemini` 从 `部分核对` 升级为 `已核对`。2026-05-18 补入 `tweetclaw`，来源为公开 GitHub 仓库、npm 包与 ClawHub 插件页。
 
 ## 状态口径
 
@@ -14,7 +14,8 @@
 - 其中 **5** 个升级为 `部分核对`。
 - 随后再把 **4** 个 Feishu 条目从 `部分核对` 升级为 `已核对`。
 - 再根据用户明确给出的风险口径，把 **5** 个条目从 `部分核对` 升级为 `已核对`。
-- 当前主清单状态：**96 个 `已核对` + 4 个 `部分核对` + 0 个 `待核对`**。
+- 另补入 **1** 个公开可核对的 OpenClaw 插件条目 `tweetclaw`。
+- 当前主清单状态：**97 个 `已核对` + 4 个 `部分核对` + 0 个 `待核对`**。
 
 ## 新增：由公开技能页升级为 `已核对`（38 项）
 
@@ -79,6 +80,10 @@
 - `canvas`：已有本机运行态与官方 Canvas 文档；用户明确说明该条目按安全能力直接通过，因此升级为 `已核对`。
 - `gh-issues`：已有公开 registry 条目；用户明确说明该条目按安全能力直接通过，因此升级为 `已核对`。
 - `gemini`：已有本机运行态与官方 provider / CLI 文档线索；用户明确说明该条目按安全能力直接通过，因此升级为 `已核对`。
+
+## 新增：由公开仓库与包元数据核对为 `已核对`（1 项）
+
+- `tweetclaw`：来源 `https://github.com/Xquik-dev/tweetclaw`、`https://www.npmjs.com/package/@xquik/tweetclaw` 与 `https://clawhub.ai/plugins/@xquik/tweetclaw`；可确认 `@xquik/tweetclaw` 是 MIT 许可的 OpenClaw 插件，安装命令为 `openclaw plugins install @xquik/tweetclaw`，覆盖 X/Twitter tweet scraper、search tweets、search tweet replies、post tweets / replies、follower export、user lookup、media upload / download、direct messages、monitors、webhooks 与 giveaway draws；风险：需要 Xquik API key 或只读 MPP signing key，写入、付费与 recurring action 应先确认范围、账号、目标和内容。
 
 ## 仍为 `部分核对` 的 4 项
 
